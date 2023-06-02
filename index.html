@@ -7,10 +7,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <!-- the text font is imported -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
+    <header>
+        <h1>using-git</h1>
+    </header>
+    <main>
+        <article>
+            <p>The following commands are the most commonly used in Git</p>
+        </article>
+        <article>
+            <h2>git init</h2>
+            <p>start a repository</p>
+        </article>
+        <article>
+            <h2>git status</h2>
+            <p>see current status</p>
+        </article>
+        <article>
+            <h2>git add &#60filename&#62</h2>
+            <p>add a file to the staggin area</p>
+        </article>
+        <article>
+            <h2>git add .</h2>
+            <p>makes a git add of everything</p>
+        </article>
+        <article>
+            <h2>git rm --cached &#60filename&#62</h2>
+            <p>removes the copy of the file from the staging-area, without touching the working tree copy</p>
+        </article>
+        <article>
+            <h2>git log &#60filename&#62</h2>
+            <p>commit history</p>
+            <p>If a file name is included, it shows the history of changes to that file.</p>
+        </article>
+        <article>
+            <h2>git log --stat</h2>
+            <p>commit history with number of bytes that were changed</p>
+        </article>
+        <article>
+            <h2>git show &#60filename&#62</h2>
+            <p>graphically displays a file's change history</p>
+        </article>
+    </main>
 </body>
 
 </html>

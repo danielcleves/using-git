@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #bebebe;
+}
+
+header {
+    text-align: center;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 1em;
+}
+
+main {
+    width: 70%;
+    margin: 3vh auto;
+}
+
+article {
+    background-color: #6e6e6e;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-family: monospace;
+    background-color: #000000;
+    color: #ffffff;
+    display: inline-block;
+    margin: .5em 0;
+}
